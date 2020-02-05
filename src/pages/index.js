@@ -30,6 +30,7 @@ const IndexPage = ({ data }) => (
 
 export default IndexPage
 
+// GraphQL query to get the text to fill in the page
 export const query = graphql`
   query IndexQuery {
     allDatoCmsWork(sort: { fields: [position], order: ASC }) {

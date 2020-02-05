@@ -27,6 +27,7 @@ const About = ({ data: { about } }) => (
 
 export default About
 
+// GraphQL query to get the text to fill in the page
 export const query = graphql`
   query AboutQuery {
     about: datoCmsAboutPage {

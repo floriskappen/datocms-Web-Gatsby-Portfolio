@@ -1,5 +1,6 @@
 import React from 'react'
 
+// This page is for when the user tries to access a page that doesn't exist
 const NotFoundPage = () => (
   <div>
     <h1>NOT FOUND</h1>
